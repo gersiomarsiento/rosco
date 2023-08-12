@@ -1,0 +1,254 @@
+body {
+    background: radial-gradient(#4e73da, #17218b);    
+    height: 90vh;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.circulo-rosco .burbuja {
+    font-family: "nunito";
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    margin-left: -31px;
+    margin-top: -31px;
+}
+
+
+.letrita {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column;}
+
+
+.circulo-rosco .burbuja:nth-child(1) {transform: rotate(calc(-90deg + 0 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(1) span {transform: rotate(90deg);}
+.circulo-rosco .burbuja:nth-child(2) {transform: rotate(calc(-90deg + 1 * (360deg / 27))) translate(calc(var(--sizerosco) / 2));}
+    .circulo-rosco .burbuja:nth-child(2) span {transform: rotate(calc(90deg - 1 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(3) {transform: rotate(calc(-90deg + 2 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(3) span {transform: rotate(calc(90deg - 2 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(4) {transform: rotate(calc(-90deg + 3 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(4) span {transform: rotate(calc(90deg - 3 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(5) {transform: rotate(calc(-90deg + 4 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(5) span {transform: rotate(calc(90deg - 4 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(6) {transform: rotate(calc(-90deg + 5 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(6) span {transform: rotate(calc(90deg - 5 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(7) {transform: rotate(calc(-90deg + 6 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(7) span {transform: rotate(calc(90deg - 6 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(8) {transform: rotate(calc(-90deg + 7 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(8) span {transform: rotate(calc(90deg - 7 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(9) {transform: rotate(calc(-90deg + 8 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(9) span {transform: rotate(calc(90deg - 8 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(10) {transform: rotate(calc(-90deg + 9 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(10) span {transform: rotate(calc(90deg - 9 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(11) {transform: rotate(calc(-90deg + 10 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(11) span {transform: rotate(calc(90deg - 10 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(12) {transform: rotate(calc(-90deg + 11 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(12) span {transform: rotate(calc(90deg - 11 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(13) {transform: rotate(calc(-90deg + 12 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(13) span {transform: rotate(calc(90deg - 12 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(14) {transform: rotate(calc(-90deg + 13 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(14) span {transform: rotate(calc(90deg - 13 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(15) {transform: rotate(calc(-90deg + 14 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(15) span {transform: rotate(calc(90deg - 14 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(16) {transform: rotate(calc(-90deg + 15 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(16) span {transform: rotate(calc(90deg - 15 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(17) {transform: rotate(calc(-90deg + 16 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(17) span {transform: rotate(calc(90deg - 16 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(18) {transform: rotate(calc(-90deg + 17 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(18) span {transform: rotate(calc(90deg - 17 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(19) {transform: rotate(calc(-90deg + 18 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(19) span {transform: rotate(calc(90deg - 18 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(20) {transform: rotate(calc(-90deg + 19 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(20) span {transform: rotate(calc(90deg - 19 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(21) {transform: rotate(calc(-90deg + 20 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(21) span {transform: rotate(calc(90deg - 20 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(22) {transform: rotate(calc(-90deg + 21 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(22) span {transform: rotate(calc(90deg - 21 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(23) {transform: rotate(calc(-90deg + 22 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(23) span {transform: rotate(calc(90deg - 22 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(24) {transform: rotate(calc(-90deg + 23 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(24) span {transform: rotate(calc(90deg - 23 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(25) {transform: rotate(calc(-90deg + 24 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(25) span {transform: rotate(calc(90deg - 24 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(26) {transform: rotate(calc(-90deg + 25 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(26) span {transform: rotate(calc(90deg - 25 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(27) {transform: rotate(calc(-90deg + 26 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(27) span {transform: rotate(calc(90deg - 26 * (360deg / 27)))}
+.circulo-rosco .burbuja:nth-child(28) {transform: rotate(calc(-90deg + 27 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(28) span {transform: rotate(calc(90deg - 27 * (360deg / 27)))}
+
+    
+    .circulo-rosco .burbuja {font-family: "nunito"; width: 58px;height: 58px;position: absolute;border-radius: 50%;left: 50%; top: 50%;margin-left: -31px;margin-top: -31px;}
+    .circulo-rosco .burbuja > div {width:100%; height: 100%;}
+    .circulo-rosco .burbuja span {border-radius:100px;transition: all .2s ease;color:rgba(255,255,255,1);text-shadow:5px 4px 0px rgba(0,0,0,0.20);background-size:100%;font-size: 36px;background:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiID8+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB3aWR0aD0iMzAwcHQiIGhlaWdodD0iMzAwcHQiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8ZyBpZD0iI2ZmZmZmZmZmIj4NCjxwYXRoIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjEuMDAiIGQ9IiBNIDE0OC4zNCAwLjAwIEwgMTUyLjE3IDAuMDAgQyAxODIuOTEgMC41NiAyMTMuMzkgMTAuNjYgMjM4LjIxIDI4LjgzIEMgMjY0LjIyIDQ3LjcwIDI4My45NCA3NS4xMiAyOTMuMzcgMTA1Ljg2IEMgMjk3LjQwIDExOC43NSAyOTkuNDYgMTMyLjIwIDMwMC4wMCAxNDUuNjggTCAzMDAuMDAgMTU0LjIzIEMgMjk5LjExIDE4NC43NyAyODguNzEgMjE0Ljk1IDI3MC4zNSAyMzkuMzkgQyAyNTAuODQgMjY1LjY5IDIyMi41MCAyODUuMjkgMTkwLjk5IDI5NC4yMCBDIDE3Ny44OSAyOTcuOTUgMTY0LjI4IDI5OS44MiAxNTAuNjcgMzAwLjAwIEwgMTQ4LjM5IDMwMC4wMCBDIDExNy40MSAyOTkuNzkgODYuNTUgMjg5Ljg1IDYxLjQ2IDI3MS42MyBDIDI3LjYxIDI0Ny41MyA0LjYyIDIwOC43OCAwLjAwIDE2Ny40NCBMIDAuMDAgMTMyLjU1IEMgNC4zNyA5My42NCAyNC45NSA1Ny4wMCA1NS42NSAzMi43NCBDIDgxLjc0IDExLjg1IDExNC45MyAwLjIwIDE0OC4zNCAwLjAwIE0gMTM0LjU3IDkuODAgQyAxMTcuMjYgMTEuNjAgMTAwLjI5IDE2LjY3IDg0LjgzIDI0LjY1IEMgNTQuOTggMzkuODcgMzAuOTMgNjYuMDcgMTguMzMgOTcuMTIgQyA3LjI3IDEyNC4xMCA1LjA1IDE1NC41NyAxMS45MCAxODIuOTEgQyAxOC43MyAyMTEuNDggMzQuODggMjM3LjY5IDU3LjIxIDI1Ni43NiBDIDgxLjY5IDI3Ny45NiAxMTMuNjYgMjkwLjMxIDE0Ni4wNSAyOTAuOTMgQyAxODAuNTAgMjkxLjk1IDIxNS4wOSAyNzkuNjggMjQxLjI0IDI1Ny4yNCBDIDI2My44MiAyMzguMTIgMjgwLjIwIDIxMS43NiAyODcuMDkgMTgyLjk2IEMgMjkzLjQ3IDE1Ni42MCAyOTIuMDEgMTI4LjM4IDI4Mi44NSAxMDIuODQgQyAyNzIuNDQgNzMuNTggMjUyLjAyIDQ4LjA1IDIyNS44NCAzMS4zNyBDIDE5OS4wNiAxNC4wNSAxNjYuMjcgNi4zNyAxMzQuNTcgOS44MCBaIiAvPg0KPC9nPg0KPC9zdmc+DQo=") no-repeat center/100%, linear-gradient(47deg, rgba(0,75,255,1) 0%, rgba(25,120,255,1) 100%);position: absolute; width:100%; height:100%;}
+    .circulo-rosco .burbuja.correcta span {background:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiID8+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB3aWR0aD0iMzAwcHQiIGhlaWdodD0iMzAwcHQiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8ZyBpZD0iI2ZmZmZmZmZmIj4NCjxwYXRoIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjEuMDAiIGQ9IiBNIDE0OC4zNCAwLjAwIEwgMTUyLjE3IDAuMDAgQyAxODIuOTEgMC41NiAyMTMuMzkgMTAuNjYgMjM4LjIxIDI4LjgzIEMgMjY0LjIyIDQ3LjcwIDI4My45NCA3NS4xMiAyOTMuMzcgMTA1Ljg2IEMgMjk3LjQwIDExOC43NSAyOTkuNDYgMTMyLjIwIDMwMC4wMCAxNDUuNjggTCAzMDAuMDAgMTU0LjIzIEMgMjk5LjExIDE4NC43NyAyODguNzEgMjE0Ljk1IDI3MC4zNSAyMzkuMzkgQyAyNTAuODQgMjY1LjY5IDIyMi41MCAyODUuMjkgMTkwLjk5IDI5NC4yMCBDIDE3Ny44OSAyOTcuOTUgMTY0LjI4IDI5OS44MiAxNTAuNjcgMzAwLjAwIEwgMTQ4LjM5IDMwMC4wMCBDIDExNy40MSAyOTkuNzkgODYuNTUgMjg5Ljg1IDYxLjQ2IDI3MS42MyBDIDI3LjYxIDI0Ny41MyA0LjYyIDIwOC43OCAwLjAwIDE2Ny40NCBMIDAuMDAgMTMyLjU1IEMgNC4zNyA5My42NCAyNC45NSA1Ny4wMCA1NS42NSAzMi43NCBDIDgxLjc0IDExLjg1IDExNC45MyAwLjIwIDE0OC4zNCAwLjAwIE0gMTM0LjU3IDkuODAgQyAxMTcuMjYgMTEuNjAgMTAwLjI5IDE2LjY3IDg0LjgzIDI0LjY1IEMgNTQuOTggMzkuODcgMzAuOTMgNjYuMDcgMTguMzMgOTcuMTIgQyA3LjI3IDEyNC4xMCA1LjA1IDE1NC41NyAxMS45MCAxODIuOTEgQyAxOC43MyAyMTEuNDggMzQuODggMjM3LjY5IDU3LjIxIDI1Ni43NiBDIDgxLjY5IDI3Ny45NiAxMTMuNjYgMjkwLjMxIDE0Ni4wNSAyOTAuOTMgQyAxODAuNTAgMjkxLjk1IDIxNS4wOSAyNzkuNjggMjQxLjI0IDI1Ny4yNCBDIDI2My44MiAyMzguMTIgMjgwLjIwIDIxMS43NiAyODcuMDkgMTgyLjk2IEMgMjkzLjQ3IDE1Ni42MCAyOTIuMDEgMTI4LjM4IDI4Mi44NSAxMDIuODQgQyAyNzIuNDQgNzMuNTggMjUyLjAyIDQ4LjA1IDIyNS44NCAzMS4zNyBDIDE5OS4wNiAxNC4wNSAxNjYuMjcgNi4zNyAxMzQuNTcgOS44MCBaIiAvPg0KPC9nPg0KPC9zdmc+DQo=") no-repeat center/100%, linear-gradient(47deg, rgba(0,169,57,1) 0%, rgba(9,213,69,1) 100%);}
+    .circulo-rosco .burbuja.incorrecta span {background:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiID8+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB3aWR0aD0iMzAwcHQiIGhlaWdodD0iMzAwcHQiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8ZyBpZD0iI2ZmZmZmZmZmIj4NCjxwYXRoIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjEuMDAiIGQ9IiBNIDE0OC4zNCAwLjAwIEwgMTUyLjE3IDAuMDAgQyAxODIuOTEgMC41NiAyMTMuMzkgMTAuNjYgMjM4LjIxIDI4LjgzIEMgMjY0LjIyIDQ3LjcwIDI4My45NCA3NS4xMiAyOTMuMzcgMTA1Ljg2IEMgMjk3LjQwIDExOC43NSAyOTkuNDYgMTMyLjIwIDMwMC4wMCAxNDUuNjggTCAzMDAuMDAgMTU0LjIzIEMgMjk5LjExIDE4NC43NyAyODguNzEgMjE0Ljk1IDI3MC4zNSAyMzkuMzkgQyAyNTAuODQgMjY1LjY5IDIyMi41MCAyODUuMjkgMTkwLjk5IDI5NC4yMCBDIDE3Ny44OSAyOTcuOTUgMTY0LjI4IDI5OS44MiAxNTAuNjcgMzAwLjAwIEwgMTQ4LjM5IDMwMC4wMCBDIDExNy40MSAyOTkuNzkgODYuNTUgMjg5Ljg1IDYxLjQ2IDI3MS42MyBDIDI3LjYxIDI0Ny41MyA0LjYyIDIwOC43OCAwLjAwIDE2Ny40NCBMIDAuMDAgMTMyLjU1IEMgNC4zNyA5My42NCAyNC45NSA1Ny4wMCA1NS42NSAzMi43NCBDIDgxLjc0IDExLjg1IDExNC45MyAwLjIwIDE0OC4zNCAwLjAwIE0gMTM0LjU3IDkuODAgQyAxMTcuMjYgMTEuNjAgMTAwLjI5IDE2LjY3IDg0LjgzIDI0LjY1IEMgNTQuOTggMzkuODcgMzAuOTMgNjYuMDcgMTguMzMgOTcuMTIgQyA3LjI3IDEyNC4xMCA1LjA1IDE1NC41NyAxMS45MCAxODIuOTEgQyAxOC43MyAyMTEuNDggMzQuODggMjM3LjY5IDU3LjIxIDI1Ni43NiBDIDgxLjY5IDI3Ny45NiAxMTMuNjYgMjkwLjMxIDE0Ni4wNSAyOTAuOTMgQyAxODAuNTAgMjkxLjk1IDIxNS4wOSAyNzkuNjggMjQxLjI0IDI1Ny4yNCBDIDI2My44MiAyMzguMTIgMjgwLjIwIDIxMS43NiAyODcuMDkgMTgyLjk2IEMgMjkzLjQ3IDE1Ni42MCAyOTIuMDEgMTI4LjM4IDI4Mi44NSAxMDIuODQgQyAyNzIuNDQgNzMuNTggMjUyLjAyIDQ4LjA1IDIyNS44NCAzMS4zNyBDIDE5OS4wNiAxNC4wNSAxNjYuMjcgNi4zNyAxMzQuNTcgOS44MCBaIiAvPg0KPC9nPg0KPC9zdmc+DQo=") no-repeat center/100%, linear-gradient(47deg, rgba(204,45,45,1) 0%, rgba(222,61,61,1) 100%);}
+    .circulo-rosco .burbuja.actual span {animation-name: actual-fade;animation-duration: .7s;animation-iteration-count: infinite;transition: all .2s ease;background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiID8+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB3aWR0aD0iMzAwcHQiIGhlaWdodD0iMzAwcHQiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8ZyBpZD0iI2ZmZmZmZmZmIj4NCjxwYXRoIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjEuMDAiIGQ9IiBNIDE0OC4zNCAwLjAwIEwgMTUyLjE3IDAuMDAgQyAxODIuOTEgMC41NiAyMTMuMzkgMTAuNjYgMjM4LjIxIDI4LjgzIEMgMjY0LjIyIDQ3LjcwIDI4My45NCA3NS4xMiAyOTMuMzcgMTA1Ljg2IEMgMjk3LjQwIDExOC43NSAyOTkuNDYgMTMyLjIwIDMwMC4wMCAxNDUuNjggTCAzMDAuMDAgMTU0LjIzIEMgMjk5LjExIDE4NC43NyAyODguNzEgMjE0Ljk1IDI3MC4zNSAyMzkuMzkgQyAyNTAuODQgMjY1LjY5IDIyMi41MCAyODUuMjkgMTkwLjk5IDI5NC4yMCBDIDE3Ny44OSAyOTcuOTUgMTY0LjI4IDI5OS44MiAxNTAuNjcgMzAwLjAwIEwgMTQ4LjM5IDMwMC4wMCBDIDExNy40MSAyOTkuNzkgODYuNTUgMjg5Ljg1IDYxLjQ2IDI3MS42MyBDIDI3LjYxIDI0Ny41MyA0LjYyIDIwOC43OCAwLjAwIDE2Ny40NCBMIDAuMDAgMTMyLjU1IEMgNC4zNyA5My42NCAyNC45NSA1Ny4wMCA1NS42NSAzMi43NCBDIDgxLjc0IDExLjg1IDExNC45MyAwLjIwIDE0OC4zNCAwLjAwIE0gMTM0LjU3IDkuODAgQyAxMTcuMjYgMTEuNjAgMTAwLjI5IDE2LjY3IDg0LjgzIDI0LjY1IEMgNTQuOTggMzkuODcgMzAuOTMgNjYuMDcgMTguMzMgOTcuMTIgQyA3LjI3IDEyNC4xMCA1LjA1IDE1NC41NyAxMS45MCAxODIuOTEgQyAxOC43MyAyMTEuNDggMzQuODggMjM3LjY5IDU3LjIxIDI1Ni43NiBDIDgxLjY5IDI3Ny45NiAxMTMuNjYgMjkwLjMxIDE0Ni4wNSAyOTAuOTMgQyAxODAuNTAgMjkxLjk1IDIxNS4wOSAyNzkuNjggMjQxLjI0IDI1Ny4yNCBDIDI2My44MiAyMzguMTIgMjgwLjIwIDIxMS43NiAyODcuMDkgMTgyLjk2IEMgMjkzLjQ3IDE1Ni42MCAyOTIuMDEgMTI4LjM4IDI4Mi44NSAxMDIuODQgQyAyNzIuNDQgNzMuNTggMjUyLjAyIDQ4LjA1IDIyNS44NCAzMS4zNyBDIDE5OS4wNiAxNC4wNSAxNjYuMjcgNi4zNyAxMzQuNTcgOS44MCBaIiAvPg0KPC9nPg0KPC9zdmc+DQo=") no-repeat center/100%,linear-gradient(to right, rgba(142,187,235,1) 1%,rgba(55,140,232,1) 100%);}
+    .circulo-rosco .burbuja.actual > div{  animation-name: actual;
+    animation-duration: 1s;animation-iteration-count: infinite;
+    animation-fill-mode: forwards; transition: all .2s ease;}
+    @keyframes actual {
+    0% {}
+    20% {transform: scale(1.10);}
+    50% {}
+    }
+    @keyframes actual-fade {
+    0% {color:rgba(255,255,255,1)}
+    20% {color:rgba(255,255,255,0.8)}
+    50% {color:rgba(255,255,255,1)}
+    }    
+
+#visor-pregunta {pointer-events: none;position: absolute;opacity:0;transform: scale(1.2);left:0;right:0;top: 300px;width: 370px;margin: auto;text-align:center;color:rgb(95, 86, 86);height:325px;}
+#visor-pregunta.on {transform: scale(1);pointer-events: unset;opacity:1;transition: .4s ease all;}
+#visor-pregunta.off {transform: scale(0.8); opacity:0;}
+
+#visor-pregunta {
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+    transform: scale(1.2);
+    left: 0;
+    right: 0;
+    top: 300px;
+    width: 370px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    height: 325px;
+}
+
+#visor-pregunta #empieza-contiene {
+    display: inline-block;
+    color: #176cf6;
+    font-family: helcon;
+    background-color: white;
+    border-radius: 100px;
+    padding: 5px 14px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#visor-pregunta #pregunta {
+    font-family: helcon;
+    font-size: 25px;
+    min-height: 200px;
+    font-weight: normal;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}   
+
+#visor-pregunta #respuesta input[type="text"] {
+    background-color: transparent;
+    border: 0;
+    margin-top: 6px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.40);
+    height: 50px;
+    color: rgba(255,255,255,0.80);
+    width: 227px;
+    font-family: helcon;
+    font-size: 18px;
+}
+#visor-pregunta #respuesta input[type="text"]::placeholder{color: rgba(255,255,255,0.40);}
+
+#acciones {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#botones-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#button-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#button-icons img {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.boton-accion {
+    background-color: rgb(17, 17, 77);
+    border-radius: 1000px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    transition: .1s;
+}
+.boton-accion:hover {
+    background-color: white;
+    color: rgb(17, 17, 77);
+    transition: .2s;
+}
+
+#reloj{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 114px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: helcon;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+#mic img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 30px;
+    height: 50px;
+    background: white;
+    border-radius: 80px;
+    padding: 10px;
+    border: 2px solid black;
+    transition: .4s;
+}
+
+#mic img:hover {
+    background: linear-gradient(47deg, rgba(0,169,57,1) 0%, rgba(9,213,69,1) 100%);
+    transition: 1s;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    margin: 300px 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#cerrar-modal {
+    margin-top: 10px;
+}
+
+:root {--sizerosco: 547px;}
