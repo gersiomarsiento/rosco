@@ -4,6 +4,8 @@
   "description": "Juego en el que el usuario debe adivinar cada palabra basándose en la definición de la misma",
   "main": "app.js",
   "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && netlify-lambda serve src",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && netlify-lambda build src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,6 +21,8 @@
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^3.0.1",
+    "serverless-http": "^3.2.0"
   }
 }
