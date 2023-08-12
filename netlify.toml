@@ -1,5 +1,3 @@
 [build]
 
     functions = "functions"
-    command = "netlify-lambda build src"
-    environment = { NODE_OPTIONS = "--openssl-legacy-provider" }
