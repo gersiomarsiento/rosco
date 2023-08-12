@@ -12,7 +12,7 @@ h1 {
 
 .circulo-rosco .burbuja {
     font-family: "nunito";
-    width: 58px;
+    width: 5008px;
     height: 58px;
     position: absolute;
     border-radius: 50%;
@@ -252,3 +252,30 @@ h1 {
 }
 
 :root {--sizerosco: 547px;}
+
+@media only screen and (max-width: 650px) {
+    :root {--sizerosco: 357px;}
+    .circulo-rosco {
+        transform: translateY(300px);
+    }
+    .circulo-rosco .burbuja span {
+        height: 60%;
+        width: 60%;
+        font-size: 24px;
+    }
+    .letrita,
+    #empieza-contiene span, 
+    #visor-pregunta #pregunta {
+        font-size: 1rem;
+    }
+    #visor-pregunta #pregunta {
+        margin-top: 204px;
+        justify-content: center;
+        width: 72%;
+        transform: translateY(-90px);
+    }
+
+    /* .circulo-rosco .burbuja:nth-child(1) {transform: rotate(calc(-90deg + 0 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
+    .circulo-rosco .burbuja:nth-child(1) span {transform: rotate(90deg);} */
+
+}
