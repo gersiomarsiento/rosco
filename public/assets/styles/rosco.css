@@ -253,10 +253,10 @@ h1 {
 
 :root {--sizerosco: 547px;}
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 500px) {
     :root {--sizerosco: 357px;}
     .circulo-rosco {
-        transform: translateY(300px);
+        transform: translateY(200px);
     }
     .circulo-rosco .burbuja span {
         height: 60%;
@@ -268,11 +268,23 @@ h1 {
     #visor-pregunta #pregunta {
         font-size: 1rem;
     }
+    #empieza-contiene  {
+        transform: translateY(-50px);
+
+    }
     #visor-pregunta #pregunta {
-        margin-top: 204px;
+        /* margin-top: 204px; */
         justify-content: center;
         width: 72%;
         transform: translateY(-90px);
+    }
+    #mic img {
+        height: 25px;
+        transform: translateY(-200px);
+    }
+    #reloj {
+        bottom: -20px;
+        font-size: 1.2rem;
     }
 
     /* .circulo-rosco .burbuja:nth-child(1) {transform: rotate(calc(-90deg + 0 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
