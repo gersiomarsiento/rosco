@@ -255,8 +255,15 @@ h1 {
 
 @media only screen and (max-width: 500px) {
     :root {--sizerosco: 357px;};
+
+    html, body {
+        margin: 0; 
+        height: 100%; 
+        overflow: hidden
+    }
+
     .circulo-rosco {
-        transform: translateY(200px);
+        transform: translateY(180px);
     }
     .circulo-rosco .burbuja span {
         height: 60%;
@@ -273,7 +280,6 @@ h1 {
 
     }
     #visor-pregunta #pregunta {
-        /* margin-top: 204px; */
         justify-content: center;
         width: 72%;
         transform: translateY(-90px);
