@@ -1,0 +1,101 @@
+
+@media only screen and (max-width: 705px) {
+    :root {
+        --sizerosco: calc(100vw - 100%);
+    };
+
+    .circulo-rosco {
+        position: fixed;
+        top: 50vh;
+        left: 50vw;
+    }
+    .circulo-rosco .burbuja span {
+        height: 60%; 
+        width: 60%;
+        font-size: 24px;
+    }
+
+    .letrita,
+    #empieza-contiene span, 
+    #visor-pregunta #pregunta {
+        font-size: 1rem;
+        justify-content: center;
+
+    }
+    #visor-pregunta #pregunta {
+        position: fixed;
+        top: 0vh;
+        width: 60vw;
+    }
+    #empieza-contiene  {
+        position: fixed;
+        top: -20vh;
+    }
+    #respuesta {
+        position: fixed;
+        top: 39vh;
+    }
+    #visor-pregunta #respuesta input[type="text"]{
+        height: 30px;
+    }
+    #botones-container {
+        position: fixed;
+        top: 46vh;
+    }
+
+    #button-icons img {
+        display: none;
+    }
+    #mic img {
+        height: 25px;
+        bottom: 6vh;
+    }
+    #acciones {
+        gap: 14vw
+    }
+    #reloj {
+        bottom: 2vh;
+        font-size: 1.2rem;
+    } 
+}
+
+@media only screen and (min-width: 705px) {
+    #visor-pregunta {
+        position: absolute;
+        top: 28%;
+        left: 0;
+        right: 0;
+    }
+}
+/* @media only screen and (min-width: 455px) and (max-width: 605px) {
+    #empieza-contiene {
+        top: -4vh
+    }
+    #mic img {
+        bottom: 35vh;
+    }
+    #botones-container {
+        top: 74vw
+    }
+    #acciones {
+        gap: 2vw;
+    }
+    #respuesta {
+        top: 46vh;
+    }
+    #visor-pregunta #pregunta {
+        font-size: 1.2rem;
+}
+} */
+
+@media only screen and (min-width: 520px) and (max-width: 605px) {
+    #respuesta {
+        top: 28vw;
+    }
+    #mic img {
+        bottom: 8vh;
+    }
+    #botones-container {
+        top: 34vw
+    }
+} 

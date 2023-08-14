@@ -9,10 +9,10 @@ h1 {
     text-align: center;
     margin-top: 5%;
 }
-
+/* 
 .circulo-rosco .burbuja {
     font-family: "nunito";
-    width: 5008px;
+    width: 58px;
     height: 58px;
     position: absolute;
     border-radius: 50%;
@@ -20,11 +20,24 @@ h1 {
     top: 50%;
     margin-left: -31px;
     margin-top: -31px;
+} */
+
+
+.letrita {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    justify-content: center; 
+    -webkit-box-orient: vertical; 
+    -webkit-box-direction: normal; 
+    -ms-flex-direction: column; 
+    flex-direction: column;
 }
-
-
-.letrita {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column;}
-
 
 .circulo-rosco .burbuja:nth-child(1) {transform: rotate(calc(-90deg + 0 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
     .circulo-rosco .burbuja:nth-child(1) span {transform: rotate(90deg);}
@@ -104,35 +117,35 @@ h1 {
     50% {color:rgba(255,255,255,1)}
     }    
 
-#visor-pregunta {pointer-events: none;position: absolute;opacity:0;transform: scale(1.2);left:0;right:0;top: 300px;width: 370px;margin: auto;text-align:center;color:rgb(95, 86, 86);height:325px;}
-#visor-pregunta.on {transform: scale(1);pointer-events: unset;opacity:1;transition: .4s ease all;}
-#visor-pregunta.off {transform: scale(0.8); opacity:0;}
+
+#visor-pregunta.on {
+    transform: scale(1);
+    pointer-events: unset;
+    opacity:1;
+    transition: .4s ease all;
+}
+#visor-pregunta.off {
+    transform: scale(0.8); 
+    opacity:0;
+}
 
 #visor-pregunta {
     pointer-events: none;
     position: absolute;
     opacity: 0;
     transform: scale(1.2);
-    left: 0;
-    right: 0;
-    top: 300px;
-    width: 370px;
+    top: 35%;
+    left: 50vw;
+    /* left: 0;
+    right: 0; */
+    /* top: 300px; */
+    /* height: 325px; */
+    max-width: 370px;
     margin: auto;
     text-align: center;
     color: white;
-    height: 325px;
 }
 
-#visor-pregunta #empieza-contiene {
-    display: inline-block;
-    color: #176cf6;
-    font-family: helcon;
-    background-color: white;
-    border-radius: 100px;
-    padding: 5px 14px;
-    font-size: 20px;
-    text-transform: uppercase;
-}
 #visor-pregunta #pregunta {
     font-family: helcon;
     font-size: 25px;
@@ -142,6 +155,19 @@ h1 {
     display: flex;
     align-items: center;
 }   
+
+#visor-pregunta #empieza-contiene {
+    display: inline-block;
+    color: #176cf6;
+    font-family: helcon;
+    background-color: white;
+    border-radius: 100px;
+    padding: 5px 14px;
+    font-size: 20px;
+    width: max-content;
+    text-transform: uppercase;
+}
+
 
 #visor-pregunta #respuesta input[type="text"] {
     background-color: transparent;
@@ -196,7 +222,7 @@ h1 {
 }
 
 #reloj{
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     bottom: 114px;
@@ -253,50 +279,13 @@ h1 {
 
 :root {--sizerosco: 547px;}
 
-@media only screen and (max-width: 500px) {
-    :root {--sizerosco: 357px;};
 
-    html, body {
-        margin: 0; 
-        height: 100%; 
-        overflow: hidden
-    }
+.container {
+    /* display: flex; */
+}
 
-    .circulo-rosco {
-        transform: translateY(180px);
-    }
-    .circulo-rosco .burbuja span {
-        height: 60%;
-        width: 60%;
-        font-size: 24px;
-    }
-    .letrita,
-    #empieza-contiene span, 
-    #visor-pregunta #pregunta {
-        font-size: 1rem;
-    }
-    #empieza-contiene  {
-        transform: translateY(-50px);
-
-    }
-    #visor-pregunta #pregunta {
-        justify-content: center;
-        width: 72%;
-        transform: translateY(-90px);
-    }
-    #button-icons img {
-        display: none;
-    }
-    #mic img {
-        height: 25px;
-        transform: translateY(-220px);
-    }
-    #reloj {
-        bottom: 20px;
-        font-size: 1.2rem;
-    }
-
-    /* .circulo-rosco .burbuja:nth-child(1) {transform: rotate(calc(-90deg + 0 * (360deg / 27))) translate(calc(var(--sizerosco) / 2))}
-    .circulo-rosco .burbuja:nth-child(1) span {transform: rotate(90deg);} */
-
+#rosco {
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
 }
