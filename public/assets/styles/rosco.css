@@ -280,9 +280,6 @@ h1 {
 :root {--sizerosco: 547px;}
 
 
-.container {
-    /* display: flex; */
-}
 
 #rosco {
     position: absolute;
