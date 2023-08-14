@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: keedy;
+    src: url("../fonts/keedy.ttf");
+}
+
+html * {
+    font-family: keedy;
+}
+
 body {
     background: radial-gradient(#4e73da, #17218b);    
     height: 90vh;
@@ -5,7 +15,7 @@ body {
 
 h1 {
     color: rgb(255, 255, 255);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: keedy, Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 5%;
 }
@@ -147,7 +157,7 @@ h1 {
 }
 
 #visor-pregunta #pregunta {
-    font-family: helcon;
+    font-family: keedy;
     font-size: 25px;
     min-height: 200px;
     font-weight: normal;
@@ -159,7 +169,7 @@ h1 {
 #visor-pregunta #empieza-contiene {
     display: inline-block;
     color: #176cf6;
-    font-family: helcon;
+    font-family: keedy;
     background-color: white;
     border-radius: 100px;
     padding: 5px 14px;
@@ -187,7 +197,7 @@ h1 {
     display: flex;
     gap: 8px;
     margin-top: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: keedy, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #botones-container {
@@ -239,7 +249,7 @@ h1 {
     margin: auto;
     text-align: center;
     color: white;
-    font-family: helcon;
+    font-family: keedy;
     font-size: 32px;
     letter-spacing: 2px;
 }
@@ -284,7 +294,7 @@ h1 {
 .modal-content {
     background-color: white;
     padding: 20px;
-    margin: 300px 40px;
+    margin: 240px 40px;
     border-radius: 5px;
     text-align: center;
 }
